@@ -15,6 +15,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from larry device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+WITH_GMS=TRUE
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_larry
 PRODUCT_DEVICE := larry
